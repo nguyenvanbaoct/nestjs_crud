@@ -9,6 +9,7 @@ async function bootstrap() {
     .setTitle('Nest  API')
     .setDescription('Nest API CRUD Basic')
     .setVersion('1.0.0')
+    .addTag('hello')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
